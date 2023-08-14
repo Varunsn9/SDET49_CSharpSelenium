@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+<MSTest>
+<Parallelize>
+<Workers>5</Workers>
+<Scope>MethodLevel</Scope>
+</Parallelize>
+</MSTest>
+	<TestRunParameters>
+<!-- this is a comment -->
+		<Parameter name="Url" value="http://rmgyantra:rmgy@9999@localhost:8084/" />
+		<Parameter name="Browser" value="Chrome" />
+
+		<Parameter name="username" value="rmgyantra" />
+		<Parameter name="password" value="rmgy@9999" />
+
+		<Parameter name="myname" value="rama" />
+
+	</TestRunParameters>
+
+	<LoggerRunSettings>
+		<Loggers>
+			<Logger friendlyName="console" enabled="True">
+				<Configuration>
+					<Verbosity>quiet</Verbosity>
+				</Configuration>
+			</Logger>
+			<Logger friendlyName="trx" enabled="True">
+				<Configuration>
+					<LogFileName>TrxTestingReport.trx</LogFileName>
+				</Configuration>
+			</Logger>
+			<Logger friendlyName="html" enabled="True">
+				<Configuration>
+					<LogFileName>TestingReport.html</LogFileName>
+				</Configuration>
+			</Logger>
+			<Logger friendlyName="blame" enabled="True" />
+		</Loggers>
+	</LoggerRunSettings>
+
+
+</RunSettings>

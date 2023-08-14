@@ -1,0 +1,6 @@
+TestClass,1,First
+TestMethod,2,second'
+TestCategory,3,third 
+DataTestMethod,4,fourth
+DataRow,5,fifth
+Ignore,6,sixth
