@@ -71,7 +71,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Instagram\InstaGramTest.cs" />
     <Compile Include="Main\ExcelUtility.cs" />
     <Compile Include="Main\ExtentReportUtility.cs" />
     <Compile Include="MouseActions\ActionsTestClass.cs" />
