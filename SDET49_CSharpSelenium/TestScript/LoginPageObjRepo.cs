@@ -22,6 +22,7 @@ namespace SDET49_CSharpSelenium.TestScript
             driver.Navigate().GoToUrl("https://www.google.com");
             WebDriverWait webDriverWait = new WebDriverWait(driver, TimeSpan.FromSeconds(1));
             webDriverWait.Until(ExpectedConditions.TitleIs("Google"));
+               
         }
     }
 }

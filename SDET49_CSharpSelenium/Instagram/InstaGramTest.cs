@@ -29,7 +29,7 @@ namespace SDET49_CSharpSelenium.Instagram
          //clicking on more
             driver.FindElement(By.XPath("//*[local-name()='svg'][@aria-label=\"Settings\"]")).Click();
             //clicking on settings
-            var settingxpath = "//*[@id=\"mount_0_0_mJ\"]/div/div/div[2]/div/div/div/div[2]/div/div/div[1]/div[1]/div/div/div/div/div/div/div[1]/div/a[1]";
+            string settingxpath = "//*[@id=\"mount_0_0_mJ\"]/div/div/div[2]/div/div/div/div[2]/div/div/div[1]/div[1]/div/div/div/div/div/div/div[1]/div/a[1]";
         }
 
     }
